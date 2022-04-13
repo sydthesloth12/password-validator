@@ -22,7 +22,10 @@ const validatePassword= (password) => {
             hasSpecial = true
         }
 
-} 
+    }
+    
+    return (hasUpperCase && hasLowerCase && hasNumber && hasSpecial && password.length >= 8)
+
 }
 
 module.exports = validatePassword
