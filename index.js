@@ -35,7 +35,7 @@ const checkNumbers = (letter) => {
 }
 
 const checkSpecCharacter = (letter) => {
-  let hasSpecial = '1234567890'
+  let hasSpecial = '!@#$%^&*()_-+='
 
   for (let i = 0; i < hasSpecial.length; i++) {
     const currentItem = hasSpecial[i]
